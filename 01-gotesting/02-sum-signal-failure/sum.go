@@ -1,0 +1,5 @@
+package sum
+
+func sum(a, b int) int {
+	return a + b
+}
