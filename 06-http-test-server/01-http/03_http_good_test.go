@@ -10,7 +10,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`{"id": 1, "name": "AnuchitO", "description": "gopher"}`))
+	w.Write([]byte(`{"id": 1, "name": "AnuchitO", "info": "gopher"}`))
 }
 
 func setup(t *testing.T) (*httptest.Server, func()) {
